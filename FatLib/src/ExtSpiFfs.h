@@ -21,7 +21,7 @@
 class SpiFfsClass
 {
 public:
-  bool    begin() { return SPIFFS.begin(); };
+  bool    begin()     { return SPIFFS.begin(); };
   Dir     openDir( const char* path )
                       { return SPIFFS.openDir( path ); };
   bool    exists( const char* path )
